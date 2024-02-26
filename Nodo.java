@@ -1,4 +1,29 @@
 public class Nodo {
+    private Termino termino;
+    private Nodo siguiente;
+
+    public Nodo(Termino termino) {
+        this.termino = termino;
+        this.siguiente = null;
+    }
+
+    public Termino getTermino() {
+        return termino;
+    }
+
+    public Nodo getSiguiente() {
+        return siguiente;
+    }
+
+    public void setSiguiente(Nodo siguiente) {
+        this.siguiente = siguiente;
+    }
+}
+
+
+
+
+/*public class Nodo {
     //Atributos
     int Coe, Exp;
     Nodo Liga;
@@ -39,4 +64,4 @@ public class Nodo {
         Liga = liga;
     }
     
-}
+}*/
